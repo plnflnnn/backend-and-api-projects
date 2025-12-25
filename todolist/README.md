@@ -3,6 +3,8 @@
 A fullstack Todo List application built with **Express**, **EJS**, and **MongoDB**.  
 The app allows users to manage daily tasks as well as create unlimited custom lists dynamically via URL routes.
 
+## Live URL: https://todolist-5ek9.onrender.com/
+
 ---
 
 ## 🚀 Features

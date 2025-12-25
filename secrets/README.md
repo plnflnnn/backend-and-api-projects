@@ -5,6 +5,8 @@ The app supports **local authentication**, **Google OAuth**, **sessions**, and *
 
 Built with **Express**, **EJS**, **MongoDB**, and **Passport.js**.
 
+## Live URL: https://secrets-iojs.onrender.com/
+
 ---
 
 ## 🚀 Features

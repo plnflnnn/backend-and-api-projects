@@ -71,6 +71,8 @@ Server-side rendered blog application.
 
 Authentication-focused application with multiple login strategies.
 
+## Live URL: https://secrets-iojs.onrender.com/
+
 **Features:**
 
 - Local authentication
@@ -93,6 +95,8 @@ Authentication-focused application with multiple login strategies.
 ### 🔹 ToDo List Application
 
 Task management application with persistent storage.
+
+## Live URL: https://todolist-5ek9.onrender.com/
 
 **Features:**
 
