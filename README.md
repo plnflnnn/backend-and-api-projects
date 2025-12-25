@@ -76,7 +76,7 @@ Authentication-focused application with multiple login strategies.
 **Features:**
 
 - Local authentication
-- OAuth authentication (Google, Facebook)
+- OAuth authentication (Google)
 - Session-based authorization
 - Email integration
 - Protected routes
@@ -88,7 +88,7 @@ Authentication-focused application with multiple login strategies.
 - MongoDB
 - Mongoose
 - Passport.js
-- OAuth (Google, Facebook)
+- OAuth (Google)
 
 ---
 
