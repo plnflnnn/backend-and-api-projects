@@ -1,6 +1,7 @@
 # 🛒 Grocery App Backend API
 
-A modular backend API for a grocery store application built with **Node.js**, **Express**, and **PostgreSQL**.  
+A modular backend API for a grocery store application built with **Node.js**, **Express**, and **PostgreSQL**.
+
 The backend handles **user authentication**, **product listings**, **payments (Stripe)**, and supports multiple app flows.
 
 ---
@@ -33,28 +34,16 @@ The backend handles **user authentication**, **product listings**, **payments (S
 
 ---
 
-## 📂 Project Structure
-
-.
-├── routes/
-│ ├── userRoutes.js
-│ ├── listingsRoutes.js
-│ ├── paymentRoutes.js
-│ └── secondAppRoutes.js
-├── db.js
-├── index.js
-├── package.json
-├── .env
-└── README.md
-
----
-
 ## 🔐 Security Notes
 
 Passwords are hashed using bcrypt
+
 JWT is used for authentication
+
 Cookies are HTTP-only
+
 CORS restricted to APP_URL
+
 Environment variables are required
 
 ---
@@ -62,6 +51,7 @@ Environment variables are required
 ## 📌 Project Type
 
 Backend API for a full-stack grocery application
+
 Designed to be consumed by a frontend (e.g. React / React Native)
 
 ---

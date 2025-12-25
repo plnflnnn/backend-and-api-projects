@@ -64,27 +64,33 @@ Built with **Express**, **EJS**, **MongoDB**, and **Passport.js**.
 Install dependencies:
 
 bash
+
 npm install
 
 Create a .env file in the root directory:
 
 PORT=5000
+
 MONGO_URI=your_mongodb_connection_string
+
 SESSION_SECRET=your_session_secret
 
 CLIENT_ID=google_oauth_client_id
+
 CLIENT_SECRET=google_oauth_client_secret
+
 APP_URL=http://localhost:5000
 
 EMAIL_ADDRESS=your_email@gmail.com
+
 EMAIL_PASSWORD=your_email_app_password
 
 Start the server:
-node app.js
-or (recommended for development):
+
 nodemon app.js
 
 Open in browser:
+
 http://localhost:5000
 
 ---
@@ -92,9 +98,13 @@ http://localhost:5000
 ## 🗄 Database Structure (Simplified)
 
 User
+
 username
+
 password (hashed)
+
 googleId
+
 secrets (array)
 
 ---
@@ -102,21 +112,31 @@ secrets (array)
 ## 📂 Project Type
 
 Fullstack JavaScript Application
+
 (Server-side rendering + authentication)
 
 This project demonstrates:
+
 Authentication & authorization
+
 OAuth integration
+
 Session management
+
 Secure password handling
+
 Email-based password reset
+
 Protected routes
 
 ## 📝 Notes
 
 Portfolio & learning project
+
 Focused on authentication flows and security
+
 No sensitive credentials are stored in the repository
+
 Environment variables are required to run the app
 
 ---

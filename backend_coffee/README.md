@@ -31,6 +31,7 @@ This server provides read-only endpoints to fetch products and filters for a cof
 Create a `.env` file in the root directory:
 
 DB_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net
+
 DB_NAME=your_database_name
 
 ---
@@ -40,15 +41,15 @@ DB_NAME=your_database_name
 Install dependencies:
 
 bash
+
 npm install
 
 Start the server:
 
-node index.js
-Or (recommended for development):
 nodemon index.js
 
 Server runs on:
+
 http://localhost:1000
 
 ---
@@ -56,8 +57,11 @@ http://localhost:1000
 ## 🔐 Notes & Limitations
 
 No authentication (public API)
+
 Read-only endpoints
+
 MongoDB connection is established per request
+
 Designed to be consumed by a frontend app (React / React Native)
 
 ---

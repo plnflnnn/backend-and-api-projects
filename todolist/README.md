@@ -44,41 +44,41 @@ The app allows users to manage daily tasks as well as create unlimited custom li
 Install dependencies:
 
 bash
+
 npm install
 
 Create a .env file in the root directory:
 
 PORT=5000
+
 MONGODB_URI=your_mongodb_connection_string
 
 Start the server:
-node app.js
-or (recommended for development):
+
 nodemon app.js
 
 Open in browser:
+
 http://localhost:5000
-
-## 🗄 Database Structure (Simplified)
-
-Item
-name
-List
-name
-items (array of Item)
 
 ## 📂 Project Type
 
 Fullstack JavaScript Application
+
 (Server-side rendering with Express + EJS)
 
 This project demonstrates:
+
 Backend routing
+
 Database modeling with MongoDB
+
 Dynamic URL-based content
+
 CRUD operations
 
 ## 📝 Notes
 
 Portfolio & learning project
+
 Focused on backend logic and data persistence

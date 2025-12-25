@@ -47,50 +47,47 @@ Built with **Express**, **EJS**, and **PostgreSQL**.
 Install dependencies:
 
 bash
+
 npm install
+
 Create a .env file in the root directory:
 
-env
 PORT=3000
+
 USER=your_db_user
+
 HOST=your_db_host
+
 DATABASE=your_db_name
+
 PASSWORD=your_db_password
+
 Start the server:
 
-bash
-node index.js
-or (recommended for development):
-bash
 nodemon index.js
 
 Open in browser:
-http://localhost:3000
 
-🗄 Database Structure (Simplified)
-users
-id
-name
-color
-countries
-country_name
-country_code
-visited_countries
-user_id
-country_code
+http://localhost:3000
 
 ## 📂 Project Type
 
 Fullstack JavaScript Application
+
 (Server-side rendering with Express + EJS)
 
 This project demonstrates:
+
 Backend logic
+
 Database relationships
+
 Server-side rendering
+
 Basic multi-user functionality
 
 ## 📝 Notes
 
 This is a learning & portfolio project
+
 Focused on backend fundamentals and clean data flow
