@@ -27,8 +27,10 @@ router.post('/signup', async (req, res) => {
 
     const user = result.rows[0];
     const token = generateToken(user.id);
+    const { password: _, ...userSafe } = user;
+
     res.cookie('jwt', token, { httpOnly: true, maxAge: 86400000 });
-    res.status(201).json({ token, user });
+    res.status(201).json({ token, user: userSafe });
   } catch (err) {
     console.error('Signup error:', err);
     res.status(500).json({ error: 'Internal server error' });
@@ -45,10 +47,10 @@ router.post('/login', async (req, res) => {
       return res.status(401).json({ error: 'Invalid credentials' });
 
     const token = generateToken(user.id);
-
     const { password: _, ...userSafe } = user;
+
     res.cookie('jwt', token, { httpOnly: true, maxAge: 86400000 });
-    res.status(200).json({ token, userSafe });
+    res.status(200).json({ token, user: userSafe });
   } catch (err) {
     console.error('Login error:', err);
     res.status(500).json({ error: 'Login failed' });
@@ -73,8 +75,10 @@ router.post('/change-password', async (req, res) => {
     );
 
     const token = generateToken(user.id);
+    const { password: _, ...userSafe } = user;
+
     res.cookie('jwt', token, { httpOnly: true, maxAge: 86400000 });
-    res.status(200).json({ message: 'Password updated successfully', token, user });
+    res.status(200).json({ message: 'Password updated successfully', token, user: userSafe });
   } catch (err) {
     console.error('Change password error:', err);
     res.status(500).json({ error: 'Failed to change password' });
